@@ -1,0 +1,24 @@
+// import utilities files
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
+// import general files
+@import 'general/reset';
+@import 'general/content';
+@import 'general/fonts';
+
+// import elements files
+@import 'elements/hamburger-menu-button';
+@import 'elements/headings';
+
+// import section files
+@import 'sections/header-section';
+@import 'sections/hero-section';
+@import 'sections/about-section';
+@import 'sections/work-section';
+@import 'sections/testemonial-section';
+@import 'sections/shop-section';
+@import 'sections/subscribe-section';
+
+//import partials files
+//@import 'partials/icons';

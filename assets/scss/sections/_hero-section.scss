@@ -1,0 +1,19 @@
+.hero-section {
+	background-image: url('../images/home-hero-img.jpg');
+	@include background-image-style(cover, no-repeat, center);
+	width: 100%;
+
+	&::before {
+		content: "";
+		display: block;
+		padding-top: 50%;
+
+		@include min-mq ($min-extra-large-desktop) {
+			padding-top: 40%;
+		}
+
+		@include max-mq ($max-tablet) {
+			padding-top: 81%;
+		}
+	}
+}

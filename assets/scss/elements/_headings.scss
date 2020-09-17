@@ -1,0 +1,25 @@
+h2 {
+	font-size: 20px;
+    padding: 24px 0;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3 {
+	font-size: 19px;
+    font-weight: bold;
+    padding: 34px 0 19px;
+    letter-spacing: .5px;
+    word-spacing: 6px;
+    text-align: center;
+
+    @include max-mq($max-mobile) {
+        padding: 34px 30px 6px;
+    }
+
+    span {
+    	color: $grey;
+    	font-weight: normal;
+    }
+}
